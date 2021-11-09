@@ -1,10 +1,7 @@
 import React, { Component } from "react";
-import Card from "./Card";
-import Header from "./Header";
-import Input from "./Input";
-// import Home from "./views/Home/Home";
-// import About from "./views/About/About";
-// import Help from "./views/Help/Help";
+import Card from "../Card";
+import Header from "../Header";
+import Input from "../Input";
 
 export default class Main extends Component {
   constructor() {
