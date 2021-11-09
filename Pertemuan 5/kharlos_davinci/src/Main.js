@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "./Card";
+import Header from "./Header";
 import Input from "./Input";
 // import Home from "./views/Home/Home";
 // import About from "./views/About/About";
@@ -16,17 +17,7 @@ export default class Main extends Component {
   render() {
     return (
       <React.Fragment>
-        <h2
-          style={{
-            width: "550px",
-            margin: "auto",
-            marginTop: "10px",
-            textAlign: "center",
-            color: "#4d90fe",
-          }}
-        >
-          Sistem Informasi E-biz
-        </h2>
+        <Header />
         <Card>
           <div>
             <Input
